@@ -1,0 +1,142 @@
+.container {
+    border-top: 13px solid rgb(239, 239, 241);
+    border-right: 13px solid rgb(237, 243, 237);
+    border-bottom: 13px solid rgb(247, 246, 246);
+    border-left: 13px solid rgb(236, 242, 245);
+    border-radius: 13px;
+    padding: 7px;
+    max-width: 400px;
+    margin: 17vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgb(25, 15, 15);
+}
+
+.display {
+    box-shadow: 3px 3px 3px 3px rgb(72, 114, 206);
+    border-radius: 5px;
+    outline-style: 10px;
+    margin: 10px 5px 20px 5px;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.buttons {
+    border-radius: 10px;
+    display: grid;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid rgb(223, 226, 223);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.button {
+    user-select: none;
+    box-shadow: 1px 1px 1px 1px rgb(123, 219, 248);
+    border-radius: 7px;
+    margin: 5px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: #fff;
+    background: #000;
+}
+
+.button:hover {
+    background: rgb(232, 241, 241);
+    color: rgb(13, 12, 12);
+    transition: 0.4s ease-in-out;
+}
+
+#equal {
+    background: rgb(65, 38, 186);
+    color: white;
+}
+
+@media (max-width:310px) {
+
+    .button {
+        box-shadow: 1px 1px 1px 1px rgb(123, 219, 248);
+        border-radius: 5px;
+        margin: 3px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 15px;
+        cursor: pointer;
+        color: #fff;
+        background: #000;
+    }
+
+    .display {
+        box-shadow: 3px 3px 3px 3px rgb(50, 117, 189);
+        border-radius: 5px;
+        outline-style: 10px;
+        margin: 5px 3px 10px 3px;
+        text-align: right;
+        height: 35px;
+        line-height: 50px;
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+
+}
+
+
+@media (max-width:220px) {
+
+    .button {
+        box-shadow: 1px 1px 1px 1px rgb(123, 219, 248);
+        border-radius: 5px;
+        margin: 3px;
+        line-height: 20px;
+        text-align: center;
+        font-size: 9px;
+        cursor: pointer;
+        color: #fff;
+        background: #000;
+    }
+
+
+    .display {
+        box-shadow: 3px 3px 3px 3px rgb(50, 117, 189);
+        border-radius: 5px;
+        outline-style: 5px;
+        margin: 3px 1px 9px 3px;
+        text-align: right;
+        min-height: 15px;
+        line-height: 50px;
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:150px) {
+
+
+    .display {
+        box-shadow: 1px 1px 1px 1px rgb(50, 117, 189);
+        border-radius: 2px;
+        outline-style: 2px;
+        margin: 2px 0.5px 5px 0.5px;
+        text-align: right;
+        height: 5px;
+        line-height: 25px;
+        padding: 5px 2.5px;
+        font-size: 9px;
+    }
+
+    .button {
+        box-shadow: 1px 1px 1px 1px rgb(123, 219, 248);
+        border-radius: 5px;
+        margin: 1px;
+        line-height: 10px;
+        text-align: center;
+        font-size: 5px;
+        cursor: pointer;
+        color: #fff;
+        background: #000;
+    }
+
+}
